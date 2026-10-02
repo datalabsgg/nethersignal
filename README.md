@@ -1,7 +1,5 @@
 # NetherSignal
 
-NetherSignal aims to be a lightweight, self-hosted signaling provider for Minecraft Bedrock's NetherNet transport. 
+This repository documents how NetherSignal communicates with its backend servers. It explains the signaling protocol and includes examples of the communication flow.
 
-NetherSignal handles signaling only. Gameplay traffic remains a direct UDP/WebRTC connection between the client and the game server; it does not provide a tunnel or gameplay relay.
-
-> Early development; not ready for production use.
+This repository is documentation and examples only; it does not contain a signaling provider or backend server implementation.
