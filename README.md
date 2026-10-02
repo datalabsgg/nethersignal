@@ -1,5 +1,7 @@
 # NetherSignal
 
-This repository documents how NetherSignal communicates with its backend servers. It explains the signaling protocol and includes examples of the communication flow.
+NetherSignal is a remotely hosted signaling backend for game servers using Minecraft Bedrock's NetherNet transport. NetherNet is Minecraft's WebRTC-based transport; NetherSignal is a separate service, not a Minecraft protocol or game server.
 
-This repository is documentation and examples only; it does not contain a signaling provider or backend server implementation.
+This repository focuses exclusively on how game servers communicate with the NetherSignal backend. It contains documentation and examples only.
+
+For background on NetherNet signaling, see [Mojang's NetherNet HTTP Signaling Partner Onboarding Guide](https://mojang.github.io/bedrock-protocol-docs/guides/nether-net-onboarding-guide/).
